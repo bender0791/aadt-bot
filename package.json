@@ -2,7 +2,7 @@
     "name": "aadt-bot",
     "version": "1.0.0",
     "description": "AADT Alliance Management Assistant",
-    "main": "bot.js",
+    "main": "index.js",
     "author": "Jake Kapitz",
     "dependencies": {
         "discord.js": "^12.2.0",

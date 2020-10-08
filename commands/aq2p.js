@@ -20,7 +20,7 @@ module.exports = {
       };
       try {
         const response = (await sheets.spreadsheets.values.get(request)).data;
-        const msg = `\`\`\`${table(response.values, {align: ['l', 'c', 'c']})}\`\`\``;
+        const msg = `\`\`\`${table(response.values, {align: ['l', 'c', 'c', 'c']})}\`\`\``;
         message.channel.send(msg);
       } catch (err) {
         console.error(err);

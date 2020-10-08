@@ -14,7 +14,7 @@ module.exports = {
       const request = {
         spreadsheetId: process.env.GOOGLE_SPREADSHEET_ID,
         //range: 'H25:J35', # Map 5 path assignments
-        range: 'AQ6BG3!A1C39',        
+        range: 'AQ6BG3!A1:C39',        
         valueRenderOption: 'FORMATTED_VALUE',    
         auth: authClient,
       };

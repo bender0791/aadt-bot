@@ -7,7 +7,7 @@ module.exports = {
     execute(message, args) {
       try {
         const msg = {
-          color: 00aaff,
+          color: 0x00aaff,
           title: 'AQ Map 6 - Paths',
           description: 'Links to maps for AQ Map 6 by Cat Murdock!',
           fields: [

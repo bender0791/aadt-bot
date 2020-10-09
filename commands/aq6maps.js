@@ -17,7 +17,7 @@ module.exports = {
             },
             {
               name: 'Variant 2 - Invisble Woman',
-              value: '[Section 1](https://drive.google.com/file/d/1MZm5YQl713WlINv5z4ALBWTPAviHnFPF/view?usp=sharing)\n[Section 2](https://drive.google.com/file/d/1GmbIbg5HNsIYRbr98XdbiS1JrhnNyIXw/view?usp=sharing)\n[Section 3](https://drive.google.com/file/d/1GmbIbg5HNsIYRbr98XdbiS1JrhnNyIXw/view?usp=sharing)'
+              value: '[Section 1](https://drive.google.com/file/d/1MZm5YQl713WlINv5z4ALBWTPAviHnFPF/view?usp=sharing)\n[Section 2](https://drive.google.com/file/d/1GmbIbg5HNsIYRbr98XdbiS1JrhnNyIXw/view?usp=sharing)\n[Section 3](https://drive.google.com/file/d/12TAYzN78HKVvXdGYNAqzTfAlLukgjf4u/view?usp=sharing)'
             }
           ]
         }

@@ -5,16 +5,15 @@ const sheets = google.sheets('v4');
 const table = require('markdown-table');
 
 module.exports = {
-    name: 'aq3p',
-    description: 'AQ Path Assignments for BG3',
+    name: 'aq2p5',
+    description: 'AQ Map 5 Path Assignments for BG2',
     guildOnly: true,
-    aliases: ['aq3paths'],
+    aliases: ['aq2p'],
     async execute(message, args) {
       const authClient = await authorize();
       const request = {
         spreadsheetId: process.env.GOOGLE_SPREADSHEET_ID,
-        //range: 'H25:J35', # Map 5 path assignments
-        range: 'L25:O35',        
+        range: 'I13:K23',
         valueRenderOption: 'FORMATTED_VALUE',    
         auth: authClient,
       };

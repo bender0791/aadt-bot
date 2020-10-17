@@ -13,7 +13,7 @@ module.exports = {
       const authClient = await authorize();
       const request = {
         spreadsheetId: process.env.GOOGLE_SPREADSHEET_ID,
-        range: 'E25:F35',
+        range: 'F25:G35',
         valueRenderOption: 'FORMATTED_VALUE',    
         auth: authClient,
       };
